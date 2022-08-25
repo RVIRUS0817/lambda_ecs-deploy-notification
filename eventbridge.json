@@ -1,0 +1,14 @@
+{
+ "source": [
+ "aws.ecs"
+ ],
+ "detail-type": [
+ "ECS Deployment State Change"
+ ],
+ "resources": [
+ "arn:aws:ecs:ap-northeast-1:xxxxxxxxxxxxxx:service/clustername/adachin-service"
+ ],
+ "detail": {
+ "eventName": ["SERVICE_DEPLOYMENT_COMPLETED"]
+ }
+}
